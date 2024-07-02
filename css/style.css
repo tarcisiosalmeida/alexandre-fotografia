@@ -162,7 +162,7 @@ main #card .content .content-resume p {
 main #card .content .btns {
   display: flex;
   gap: 1.5rem;
-  margin-top: 10rem;
+  margin-top: 5rem;
 }
 
 main #card .content .btns a {
@@ -183,6 +183,7 @@ main #card .content .btns .one {
   font-size: 2.4rem;
   background-color: #0e74b8;
   color: white;
+  transition: opacity 0.5s
   }
 
   main #card .content .btns .one:hover {
@@ -207,6 +208,7 @@ main #card .content .btns .two {
   font-size: 2.4rem;
   background-color: #ffffff;
   color: #0e74b8;
+  transition: opacity 0.5s
 }
 
 main #card .content .btns .two:hover {
