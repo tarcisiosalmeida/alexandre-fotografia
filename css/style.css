@@ -17,8 +17,7 @@ button {
 
 /* MENU DE NAVEGÃO */
 
-header {
-}
+
 
 header #navbar {
   max-width: 120rem;
@@ -31,6 +30,7 @@ header #navbar .content {
   justify-content: space-between;
   align-items: center;
   height: 7rem;
+  margin-top: 1rem;
 }
 
 @media (max-width: 920px) {
@@ -41,7 +41,7 @@ header #navbar .content {
 }
 
 header #navbar .content .content-title img {
-  width: 12rem;
+  width: 15rem;
 }
 
 header #navbar .content .content-title a {
@@ -55,9 +55,9 @@ header #navbar .content .content-list {
 
 header #navbar .content .content-list .content-list-item {
   display: flex;
-  gap: 6rem;
+  gap: 3rem;
   list-style: none;
-  font-size: 2.5rem;
+  font-size: 2.0rem;
 }
 
 @media (max-width: 720px) {
@@ -185,6 +185,10 @@ main #card .content .btns .one {
   color: white;
   }
 
+  main #card .content .btns .one:hover {
+    opacity: 0.8;
+    }
+
   main #card .content .btns .one a{
     color: #ffffff;
   } 
@@ -204,6 +208,10 @@ main #card .content .btns .two {
   background-color: #ffffff;
   color: #0e74b8;
 }
+
+main #card .content .btns .two:hover {
+  opacity: 0.8;
+  }
 
 main #card .content .btns .two a{
   color: #0e74b8;
