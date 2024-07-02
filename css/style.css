@@ -121,6 +121,7 @@ main #card {
     flex-direction: column-reverse;
     justify-content: center;
     margin-top: 3rem;
+    padding: 0 0;
   }
 }
 
