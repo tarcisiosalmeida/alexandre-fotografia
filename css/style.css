@@ -334,7 +334,7 @@ main #galeria .content-galeria-one .content-foto-two {
 main #galeria .content-galeria-one .content-foto-two .content-foto-two-title {
   position: absolute;
   top: 90%;
-  left: 26%;
+  left: 20%;
   transform: translate(-50%, -50%);
   color: white;
   font-size: 2rem;
@@ -367,7 +367,7 @@ main #galeria .content-galeria-two .content-foto-one {
 main #galeria .content-galeria-two .content-foto-one .content-foto-one-title {
   position: absolute;
   top: 90%;
-  left: 18%;
+  left: 16%;
   transform: translate(-50%, -50%);
   color: white;
   font-size: 2rem;
@@ -408,4 +408,11 @@ main #galeria .content-galeria-two .content-foto-two .content-foto-two-title {
   transform: translate(-50%, -50%);
   font-size: 1.2rem;
   }
+}
+
+main #carrosel{
+  display: flex;
+  max-width: 60rem;
+  margin: 0 auto;
+  margin-top: 5rem;
 }
